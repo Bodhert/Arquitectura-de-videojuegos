@@ -1,4 +1,4 @@
-pagina 36 del libro arquitectura de videojuegos
+pagina 35-36 del libro arquitectura de videojuegos
 
 compilacion del main y nombre en un solo paso
 $ g++ -o main main.cpp
@@ -13,6 +13,7 @@ $ g++ -Iheaders -c Square.cpp
 $ g++ -Iheaders -c main1.cpp
 $ g++ Square.o main1.o -o main
 
+la opcion -I es donde se buscan las cabeceras
 compilacion modular en uno solo paso
 g++ -Iheaders Square.cpp main1.cpp -o main
 

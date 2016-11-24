@@ -1,3 +1,5 @@
+paginas 36-38
+
 una vez escrito todos los .cpp y los .h, mover los .h a una carpeta que se llame
 headers, desps proceder a realizar la compilacion de los .o con los siguientes
 comandos
@@ -14,3 +16,7 @@ finalmente para generar el ejecutable llamado main , se ejecuta el siguiente com
 $g++ main.cpp -L. -lfigures -Iheaders -o main
 
 
+
+//tienen un error en la escritura del la cabezera de Circle.h, por lo cual
+//escribi una propia , debido a que en la que plantean , aparece la
+//implementacion de la clase square

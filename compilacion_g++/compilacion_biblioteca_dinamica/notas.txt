@@ -1,0 +1,13 @@
+pagina 39
+
+$g++ -Iheaders -fPIC -c Square.cpp
+$g++ -Iheaders -fPIC -c Triangle.cpp
+$g++ -Iheaders -fPIC -c Circle.cpp
+$g++ -o libfigures.so -shared Square.o Triangle.o Circle.o
+
+$g++ main.cpp -L. -lfigures -Iheaders -o main
+
+$ LD_LIBRARY_PATH=. ./main
+
+
+
