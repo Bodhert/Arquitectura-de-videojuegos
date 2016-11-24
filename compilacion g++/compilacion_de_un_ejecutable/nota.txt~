@@ -1,0 +1,18 @@
+pagina 36 del libro arquitectura de videojuegos
+
+compilacion del main y nombre en un solo paso
+$ g++ -o main main.cpp
+
+compilacion en dos pasos, es decir primero el codigo objeto y despues el
+ejecutable
+$ g++ -c main.o
+$ g++ main.o -o main
+
+compilacion modular, en mas pasos
+$ g++ -Iheaders -c Square.cpp
+$ g++ -Iheaders -c main1.cpp
+$ g++ Square.o main1.o -o main
+
+compilacion modular en uno solo paso
+g++ -Iheaders Square.cpp main1.cpp -o main
+

@@ -1,0 +1,16 @@
+una vez escrito todos los .cpp y los .h, mover los .h a una carpeta que se llame
+headers, desps proceder a realizar la compilacion de los .o con los siguientes
+comandos
+
+$g++ -Iheaders -c Square.cpp
+$g++ -Iheaders -c Triangle.cpp
+$g++ -Iheaders -c Circle.cpp
+
+una vez realizado el paso anterior, ar me permite empaquetar los archivos
+$ar rs libfigures.a Square.o Triangle.o Circle.o
+
+
+finalmente para generar el ejecutable llamado main , se ejecuta el siguiente comando
+$g++ main.cpp -L. -lfigures -Iheaders -o main
+
+
