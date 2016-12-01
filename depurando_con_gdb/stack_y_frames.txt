@@ -1,0 +1,16 @@
+Pagina 45
+
+con el breakpoints establecido , si se quiere saber de donde provienen los llamados
+se utiliza, backtrace, Para gestionar las llamadas a funciones y procedimientos, en
+C/C++ se utiliza la pila (stack ). En la pila se almacenan frames, estructuras de
+datos que registran las variables creadas dentro de una función así como otra
+información de contexto. GDB permite manipular la pila y los frames de forma que
+sea posible identificar un uso indebido de las
+funciones.
+
+(gdb) backtrace // ver la pila de los llamados
+(gdb) up    //navegacion por la pila
+(gdb) down //navegacion por la pila
+(gdb) frame 0 // selecciona el frame al cual deseo ir
+
+una vez ubicado en el frame, se puede imprimir, modificar, variables del mismo

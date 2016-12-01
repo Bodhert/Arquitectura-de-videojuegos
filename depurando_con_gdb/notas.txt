@@ -1,0 +1,22 @@
+paginas 40-44
+
+orden para que el programa sea debugeable
+$g++ -ggdb main.cpp -o main
+
+
+correr el debugeador del programa
+$ gdb main
+  start para iniciar
+
+
+
+step ( s ): ejecuta la instrucción actual y salta a la inmediatamente siguiente sin man-
+tener el nivel de la ejecución (stack frame), es decir, entra en la definición de la
+función (si la hubiere).
+
+stepi se comporta igual que step pero a nivel de instrucciones máquina.
+
+next ( n ):ejecuta la instrucción actual y salta a la siguiente manteniendo el stack
+frame, es decir, la definición de la función se toma como una instrucción atómica.
+nexti se comporta igual que next pero si la instrucción es una llamada a función se
+espera a que termine.

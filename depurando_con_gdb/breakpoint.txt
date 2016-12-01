@@ -1,0 +1,12 @@
+paginas 44-45
+para abilitar puntos de quiebre o breakpoints, se ejecuta gdb y se tipea
+(gdb) break functionB // en el nombre de una funcion
+(gdb) break main.cpp:23 // para una linea en especifica
+(gdb) break main.cpp:28
+(gdb) run // inicia la ejecucion del programa
+(gdb) continue // pasa al siguiente breakpoint
+
+otras instrucciones
+Watchpoints: la ejecución se detiene cuando una determinada expresión cambia.
+Catchpoints: la ejecución se detiene cuando se produce un evento, como una ex-
+cepción o la carga de una librería dinámica.
