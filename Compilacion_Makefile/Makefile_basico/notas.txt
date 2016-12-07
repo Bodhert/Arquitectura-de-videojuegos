@@ -1,0 +1,13 @@
+pagina 47
+
+respuestas a las preguntas planteadas
+¿Se puede ejecutar make sobre un directorio que no sea el directorio actual?
+R//si se puede
+¿Cómo?
+R// make -C /path/to/dir
+
+¿qué opción permite ejecutar make
+sobre otro archivo que no se llame Makefile ?
+R// todavia no se
+
+

@@ -1,0 +1,11 @@
+CC :la orden que se utilizará como compilador. En este caso, el de C++.
+
+CXXFLAGS :los flags para el preprocesador y compilador de C++ (ver sección 2.2.3).
+Aquí sólo se define la opción -I , pero también es posible añadir optimizaciones y
+la opción de depuración -ggdb o -fPIC para las bibliotecas dinámicas.
+
+LDFLAGS : flags para el enlazador (ver sección 2.2.3). Aquí se definen las rutas de
+búsqueda de las bibliotecas estáticas y dinámicas.
+
+LDLIBS : en esta variable se especifican las opciones de enlazado. Normalmente, bas-
+ta con utilizar la opción -l con las bibliotecas necesarias para generar el ejecutable.

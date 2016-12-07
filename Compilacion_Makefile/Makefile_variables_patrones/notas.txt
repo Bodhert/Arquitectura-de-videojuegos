@@ -1,0 +1,22 @@
+Variable de usuario LIB_OBJECTS : se trata de la lista de archivos objetos que forman
+la biblioteca. Al contenido se puede acceder utilizando el operador $() .
+
+Variable predefinada RM : con el valor rm -f .Se utiliza en el objetivo clean .
+
+Variables automáticas $@ , $< , $ˆ : se utiliza para hacer referencia al nombre del ob-
+jetivo de la regla, al nombre de la primera dependencia y a la lista de todas las
+dependencias de la regla, respectivamente.
+
+Regla con patrón: en línea 12 se define una regla genérica a través de un patrón en
+el que se define cómo generar cualquier archivo objeto .o , a partir de un archivo
+fuente .cpp .
+
+¿qué ocurre si una vez construido el proyecto se modifica algún fichero .cpp ?
+R// make se encarga de recompilarmelo
+¿Y si se modifica una cabecera .h ?
+R// make se encarga de recompilarmelo
+¿Se podría construir una regla con patrón genérica para construir
+la biblioteca estática?
+R//si se puede
+¿Cómo lo harías?
+R//npi :`) jajajaj

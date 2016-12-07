@@ -1,0 +1,19 @@
+Funciones condicionales: funciones como ifeq o ifneq permiten realizar una eje-
+cución condicional. En este caso, si existe una variable de entorno llamada DEBUG
+con el valor yes , los flags de compilación se configuran en consecuencia.
+Para definir la variable DEBUG , es necesario ejecutar make como sigue:
+$ DEBUG=yes make
+
+Funciones de bucles: foreach permite aplicar una función a cada valor de una lista.
+Este tipo de funciones devuelven una lista con el resultado.
+
+Funciones de tratamiento de texto: por ejemplo, patsubst toma como primer pa-
+rámetro un patrón que se comprobará por cada OBJ . Si hay matching, será sustituido
+por el patrón definido como segundo parámetro. En definitiva, cambia la extensión
+.o por .cpp .
+
+Funciones de log: info , warning , error , etc. permiten mostrar texto a diferente nivel
+de severidad.
+
+Funciones de consola: shell es la función que permite ejecutar órdenes en un
+terminal. La salida es útil utilizarla como entrada a una variable.

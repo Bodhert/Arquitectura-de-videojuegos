@@ -1,0 +1,6 @@
+Más información
+GNU Make es una herramienta que está en continuo crecimiento y esta sección sólo
+ha sido una pequeña presentación de sus posibilidades. Para obtener más información
+sobre las funciones disponibles, otras variables automáticas y objetivos predefinidos se
+recomiendo utilizar el manual en línea de Make  , el cual siempre se encuentra actualizado.
+http://www.gnu.org/software/make/manual/make.html

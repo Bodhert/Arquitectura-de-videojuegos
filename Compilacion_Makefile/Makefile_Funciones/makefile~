@@ -1,0 +1,23 @@
+CC=g++
+
+ifeq ($(DEBUG),yes)
+	CXXFLAGS=-Iheaders -Wall -ggdb
+else
+	CXXFLAGS=-Iheaders -O2
+endif
+
+LDFLAGS=-L.
+LDLIBS=-lfigures
+LIB_OBJECTS=Square.o Triangle.o Circle.o
+
+all: libfigures.a main
+	$(info All done!)
+
+libfigures.a: $(LIB_OBJECTS)
+	$(AR) r $@ $^
+	$(warning Compiled objects from $(foreach OBJ,
+		$(LIB_OBJECTS),
+		$(patsubst %.o, %.cpp,$(OBJ))))
+clean:
+	$(RM) *.o *.a main
+	$(shell find -name ’*~’ -delete)
