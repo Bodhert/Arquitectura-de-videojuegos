@@ -1,0 +1,5 @@
+pagina 51
+
+esta seccion es hacerca de manejar los proyectos mediante los diferentes controles
+de versiones que exiten, he utilizado svn y git, pero esta seccion la brincare ya 
+que estoy manejando el proyecto en git , revisare por encimita que proponen para git

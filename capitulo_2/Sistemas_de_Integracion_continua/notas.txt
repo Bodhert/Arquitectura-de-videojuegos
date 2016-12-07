@@ -1,0 +1,9 @@
+pag 60
+
+Se habla de jenkins y otros sistemas de testeo, y de CI o Continous Integration
+, no se entra mucho en 
+detalle, solo los mencionan y su definicion: son sistemas, normalmente distribuidos, que
+permiten ejecutar tareas automáticas sobre proyectos cuando se ha 
+introducido un nuevo cambio, periódicamente u con cualquier otra frecuencia. 
+Además, permiten analizar el resultado de los test ejecutados y avisar 
+inmediatamente en caso de fallo.

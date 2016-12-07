@@ -1,0 +1,16 @@
+Pagina 62
+
+Doxygen
+Doxygen es un sistema que permite generar la documentación utilizando analizadores
+de código que averiguan la estructura de módulos y clases, así como las funciones y los
+métodos utilizados.
+
+se habla de la importanicia de comentar el codigo y los futuros beneficios
+que esto puede traer
+
+para correrlo, previamente debe de estar instalado, luego se ejecuta la siguiente
+orden en el raíz del código fuente para obtener una primera aproximación:
+$ doxygen .
+
+
+tambien se menciona RST y YAML para la tarea de comentar
