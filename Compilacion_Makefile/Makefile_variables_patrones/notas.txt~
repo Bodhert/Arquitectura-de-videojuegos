@@ -1,0 +1,9 @@
+¿qué ocurre si una vez construido el proyecto se modifica algún fichero .cpp ?
+R// make se encarga de recompilarmelo
+¿Y si se modifica una cabecera .h ?
+R// make se encarga de recompilarmelo
+¿Se podría construir una regla con patrón genérica para construir
+la biblioteca estática?
+R//si se puede
+¿Cómo lo harías?
+R//npi :`) jajajaj
