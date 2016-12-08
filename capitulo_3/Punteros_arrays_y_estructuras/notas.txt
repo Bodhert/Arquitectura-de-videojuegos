@@ -1,0 +1,20 @@
+pagina 70
+
+
+
+Un puntero es una variable que almacena una
+dirección de memoria, típicamente la dirección de
+otra variable. Si p contiene la dirección de q, en-
+tonces p apunta a q. Los punteros se declaran igual
+que el resto de variables y están asociados a un ti-
+po específico, el cual ha de ser válido en C++. Un
+ejemplo de declaración de puntero a entero es
+
+int *ip;
+
+Desreferencia
+El acceso al objeto al que señala un
+puntero es una de las operaciones fun-
+damentales y se denomina indirección
+o desreferencia, indistintamente.
+

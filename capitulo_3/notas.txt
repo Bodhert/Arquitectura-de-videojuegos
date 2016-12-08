@@ -1,0 +1,14 @@
+pag 68
+
+En esta seccion se esta haciendo una breve introduccion a la hsitoria de c++ y 
+sus aspectos basicos, como ya tengo conocimientos previos sobre el mismo, 
+anotare solo las cosas que para mi sean de relevancia
+
+
+el espacio de nombres std, en el que se declara la biblioteca estándar de C++.
+Un espacio de nombres delimita una zona de declaración en la que incluir diferentes
+elementos de un programa. Los espacios de nombres siguen la misma filosofía que los
+paquetes en Java y tienen como objetivo organizar los programas. El hecho de utilizar
+un espacio de nombres permite acceder a sus elementos y funcionalidades sin tener que
+especificar a qué espacio pertenecen.
+
