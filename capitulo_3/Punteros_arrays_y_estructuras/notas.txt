@@ -18,3 +18,7 @@ puntero es una de las operaciones fun-
 damentales y se denomina indirección
 o desreferencia, indistintamente.
 
+
+No olvide que una de las claves para garantizar un uso seguro de los punteros consiste
+en conocer en todo momento hacia dónde están apuntando.
+
