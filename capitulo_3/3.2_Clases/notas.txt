@@ -1,0 +1,3 @@
+pag 77-
+
+No devuelva punteros o referencias a variables locales.

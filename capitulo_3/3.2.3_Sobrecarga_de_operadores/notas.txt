@@ -1,0 +1,6 @@
+Existen ciertas restricciones relativas a la sobrecarga de operadores: no es posible
+alterar la precedencia de cualquier operador, no es posible alterar el número de ope-
+randos requeridos por un operador y, en general, no es posible utilizar argumentos
+por defecto.
+
+también es posible sobrecargar operadores unarios, como por ejemplo ++.

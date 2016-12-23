@@ -1,0 +1,33 @@
+En C++, existen ciertas diferencias relevantes entre referencias y punteros [3]:
+
+A la hora de trabajar con una referencia, la sintaxis utilizada es la misma que con
+los objetos. En otras palabras, en lugar de desreferenciar con el operador flecha ->,
+para acceder a variables y funciones se utiliza el operador punto.
+
+Las referencias sólo se pueden inicializar una vez. Por el contrario, un puntero pue-
+de apuntar a un determinado objeto y, posteriormente, apuntar a otro distinto. Sin
+embargo, una vez inicializada una referencia, ésta no se puede cambiar, compor-
+tándose como un puntero constante.
+
+Las referencias han de inicializarse tan pronto como sean declaradas. Al contra-
+rio que ocurre con los punteros, no es posible crear una referencia y esperar para
+después inicializarla.
+
+Las referencias no pueden ser nulas, como consecuencia directa de los dos puntos
+anteriores. Sin embargo, esto no quiere decir que el elemento al que referencian
+siempre sea válido. Por ejemplo, es posible borrar el objeto al que apunta una refe-
+rencia e incluso truncarla mediante algún molde para que apunte a null.
+
+Las referencias no se pueden crear o eliminar como los punteros. En ese sentido,
+son iguales que los objetos.
+
+
+Las ventajas de las referencias sobre los punteros se pueden resumir en que utili-
+zar referencias es una forma de más alto nivel de manipular objetos, ya que permite al
+desarrollador olvidarse de los detalles de gestión de memoria y centrarse en la lógica del
+problema a resolver. Aunque pueden darse situaciones en las que los punteros son más
+adecuados, una buena regla consiste en utilizar referencias siempre que sea posible, ya
+que su sintaxis es más limpia que la de los punteros y su uso es menos proclive a errores.
+
+Siempre que sea posible, es conveniente utilizar referencias, debido a su sencillez,
+manejabilidad y a la ocultación de ciertos aspectos como la gestión de memoria.
