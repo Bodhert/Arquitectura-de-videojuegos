@@ -4,3 +4,10 @@ randos requeridos por un operador y, en general, no es posible utilizar argument
 por defecto.
 
 también es posible sobrecargar operadores unarios, como por ejemplo ++.
+
+Finalmente, resulta especialmente relevante destacar que C++ permite la sobrecarga
+de cualquier operador, a excepción de new, delete, ->, ->* y el operador coma, que re-
+quieren otro tipo de técnicas. El resto de operadores se sobrecargan del mismo modo que
+los discutidos en esta sección.
+
+

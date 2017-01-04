@@ -1,0 +1,4 @@
+El modificador de acceso cuando se usa herencia es opcional ,pero si se especifica
+ha de ser public, protected o private . Por defecto es private si deriva de una
+clase , si deriva de una estructura su valor es public
+
