@@ -1,0 +1,21 @@
+Enfoque basado en agregacion:
+Una opción inmediata podría ser la agregación,
+de manera que un objeto de la clase ObjetoJuego
+contuviera un objeto de la clase ReceptorMensajes
+y otro de la clase NodoArbol, respectivamente. Así,
+la clase ObjetoJuego sería responsable de propor-
+cionar la funcionalidad necesaria para manejarlos
+en su propia interfaz. En términos generales, esta solución proporciona un gran nivel de
+reutilización sin incrementar de manera significativa la complejidad de las clases que se
+extienden de esta forma.
+
+Enfoque basado en herencia múltiple
+La herencia múltiple representa la solución idónea al problema planteado. Realmen-
+te, la herencia múltiple funciona como la herencia simple, pero posibilita que una clase
+derivada herede de dos clases base. En este caso particular, ObjetoJuego podría heredar
+de ReceptorMensajes y de ArbolNodo simultáneamente. Así, la primera clase tendría de
+manera automática la interfaz, las variables miembro y la funcionalidad de las otras dos
+clases
+
+
+figura 3.2 pag 91

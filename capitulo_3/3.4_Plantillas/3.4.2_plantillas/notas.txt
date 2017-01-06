@@ -1,0 +1,41 @@
+Las plantillas de clases permiten utilizar tipos de datos genéricos asociados a una
+clase, posibilitando posteriormente su instanciación con tipos específicos.
+
+Las plantillas de funciones siguen la misma
+idea que las plantillas de clases aplicándolas a las
+funciones. Obviamente, la principal diferencia con
+respecto a las plantillas a clases es que no necesitan
+instanciarse.
+
+Proporciona:
+
+Flexibilidad, para poder utilizar las listas con distintos tipos de datos.
+
+Simplicidad, para evitar la copia de código cada vez que se utilice una estructura
+de lista.
+
+Uniformidad, ya que se maneja una única interfaz para la lista.
+
+Independencia, entre el código asociado a la funcionalidad de la lista y el código
+asociado al tipo de datos que contendrá la lista.
+
+
+
+Desventajas de las plantillas:
+Complejidad, debido a la integración de nueva nomenclatura que puede dificultar
+la legibilidad del código. Además, el uso de plantillas hace que la depuración de
+código sea más difícil.
+
+Dependencia, ya que el código de la plantilla ha de incluirse en un fichero de cabe-
+cera para que sea visible por el compilador a la hora de instanciarlo. Este plantea-
+miento incrementa el acoplamiento entre clases. Además, el tiempo de compilación
+se ve afectado.
+
+Duplicidad de código, debido a que si, por ejemplo, se crea una lista con un nuevo
+tipo de datos, el compilador ha de crear una nueva clase de lista. Es decir, todas las
+funciones y variables miembro se duplican. En el desarrollo de videojuegos, este
+inconveniente es generalmente asumible debido a la magnitud de los proyectos.
+
+Soporte del compilador, ya que las plantillas no existen como una solución ple-
+namente estandarizada, por lo que es posible, aunque poco probable, que algunos
+compiladores no las soporten.
