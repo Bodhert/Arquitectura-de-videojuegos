@@ -1,0 +1,14 @@
+En el ámbito particular del tratamiento de excepciones en el desarrollo de videojuegos,
+las excepciones se deberían utilizar para modelar situaciones realmente excepcionales
+Este proceso es lento y afectaría enormemente al rendimiento del programa. Sin em-
+bargo, en el ámbito del desarrollo de videojuegos esta situación no resulta tan crítica,
+debido a que el uso de excepciones se limita, generalmente, a casos realmente excepcio-
+nales como modelar aspectos críticos como que el sistema
+se esté quedando sin memoria física
+
+En este contexto, las consolas de videojuegos representan el caso más extremo,
+ya que normalmente tienen los recursos acotados y hay que ser especialmente 
+cuidadoso con el rendimiento de los juegos. El caso más representativo es el 
+tamaño de la memoria principal, en el que el impacto de utilizar excepciones 
+puede ser desastroso. Sin embargo, en un PC este problema no es tan crítico, 
+por lo que el uso de excepciones puede ser más recomendable.
