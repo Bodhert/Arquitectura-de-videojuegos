@@ -1,0 +1,7 @@
+No es necesario tener una factoría o una jerarquía de factorías para la creación de
+objetos. Permite diseños más adaptados a la realidad.
+El método factoría, al estar integrado en una clase, hace posible conectar dos jerar-
+quía de objetos distintas. Por ejemplo, si los personajes tienen un método factoría
+de las armas que pueden utilizar, el dominio de las armas y los personajes queda
+unido a través el método. Las subclases de los personajes crearían las instancias de
+Weapon correspondientes.

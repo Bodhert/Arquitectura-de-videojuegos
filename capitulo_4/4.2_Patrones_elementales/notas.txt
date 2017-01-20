@@ -1,0 +1,19 @@
+Recursion: la recursión podemos definirla como la relación method-method en el
+que los objetos y los métodos implicados son los mismos.
+
+Conglomeration: si los objetos son el mismo pero se invoca a un método dife-
+rente. Esto ocurre con bastante frecuencia dentro de una clase en la que diferentes
+métodos se invocan entre sí.
+
+Redirection: una redirección se produce cuando un objeto recibe una invocación a
+un método y éste invoca «el mismo» método de otro objeto. Cuando se habla del
+«mismo» nos referimos a un método que «hace lo mismo» en términos de dise-
+ño aunque su implementación no sea exactamente la misma. Por ejemplo, la redi-
+rección es común en sistemas en donde el trabajo se divide en diferentes objetos
+(instancias) y un manager reparte el trabajo.
+
+Delegation: decimos que un método delega funcionalidad en otro cuando se invoca
+a un método diferente del mismo objeto. Un ejemplo típico son las clases que tienen
+referencias a objetos que hacen diferentes trabajos por ella.
+
+*se recomieda la lectura de design patterns [8]

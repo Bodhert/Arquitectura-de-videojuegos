@@ -1,0 +1,7 @@
+Para ilustrar el problema supóngase un juego de estrategia en el que los jugadores
+pueden recoger objetos o items, los cuales tienen una serie de propiedades como «precio»,
+«descripción», etc. Cada item, a su vez, puede contener otros items. Por ejemplo, un bolso
+de cuero puede contener una pequeña caja de madera que, a su vez, contiene un pequeño
+reloj dorado.
+En definitiva, el patrón Composite habla sobre cómo diseñar este tipo de estructuras
+recursivas donde la composición homogénea de objetos recuerda a una estructura arbórea.

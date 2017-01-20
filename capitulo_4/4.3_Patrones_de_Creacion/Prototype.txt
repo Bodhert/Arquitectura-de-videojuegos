@@ -1,0 +1,15 @@
+La idea principal es que los objetos deben poder clonarse en tiempo de 
+ejecución.
+
+Puede parecer que entra en conflicto con Abstract Factory debido a que intenta
+eliminar, precisamente, factorías intermedias. Sin embargo, es posible utilizar
+ambas aproximaciones en una Prototype Abstract Factory de forma que la factoría
+se configura con los prototipos concretos que puede crear y ésta sólo invoca a 
+clone() .
+También es posible utilizar un gestor de prototipos que permita cargar y descargar
+los prototipos disponibles en tiempo de ejecución. Este gestor es interesante para
+tener diseños ampliables en tiempo de ejecución (plugins).
+Para que los objetos puedan devolver una copia de sí mismo es necesario que en su
+implementación esté el constructor de copia (copy constructor) que en C++ viene
+por defecto implementado (aunque la implementación por defecto puede ser no
+adecuada).
